@@ -232,11 +232,11 @@ function App() {
           {/* Social links */}
           <div className="flex justify-center gap-6 mb-16">
             {[
-              { Icon: Youtube, href: '#' },
+              { Icon: Youtube, href: 'https://www.youtube.com/@xceleraofficial' },
               { Icon: Linkedin, href: '#' },
-              { Icon: Twitter, href: '#' },
+              { Icon: Twitter, href: 'https://x.com/Xceleraofficial' },
               { Icon: Facebook, href: 'https://www.facebook.com/xceleraofficial/' },
-              { Icon: Instagram, href: '#' }
+              { Icon: Instagram, href: 'https://www.instagram.com/xcelera_official/' }
             ].map(({ Icon, href }, index) => (
               <a
                 key={index}
@@ -250,7 +250,7 @@ function App() {
 
           {/* Footer */}
           <div className="text-sm text-indigo-600">
-            XCELERA EDUCATION - © 2025 All Rights Reserved
+            XCELERA ACADEMIC INSTITUTE - © 2025 All Rights Reserved
           </div>
         </div>
       </div>
