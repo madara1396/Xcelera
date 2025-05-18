@@ -7,7 +7,7 @@ import FormInput from './components/FormInput';
 import SuccessModal from './components/SuccessModal';
 import ErrorModal from './components/ErrorModal';
 import { useSupabaseForm } from './hooks/useSupabaseForm';
-import logo from './logo.png';
+import logo from './assets/logo.png';
 
 function App() {
   const { register, handleSubmit, formState: { errors }, reset, getValues } = useForm<StudentFormData>();
@@ -44,7 +44,7 @@ function App() {
           <div className="text-center mb-8">
             <div className="w-32 h-32 mx-auto mb-4">
               <img 
-                src="/logo.png" 
+                src={logo.png} 
                 alt="Xcelera Logo" 
                 className="w-full h-full object-contain"
               />
