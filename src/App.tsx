@@ -7,6 +7,7 @@ import FormInput from './components/FormInput';
 import SuccessModal from './components/SuccessModal';
 import ErrorModal from './components/ErrorModal';
 import { useSupabaseForm } from './hooks/useSupabaseForm';
+import logo from './logo.png';
 
 function App() {
   const { register, handleSubmit, formState: { errors }, reset, getValues } = useForm<StudentFormData>();
