@@ -50,7 +50,7 @@ function App() {
               />
             </div>
             <h1 className="text-3xl font-bold text-blue-600 mb-2">Student Registration</h1>
-            <p className="text-gray-600">Fill in the details to register for our teaching institution</p>
+            <p className="text-gray-600">Secure your spot in this golden batch of just 100 students.</p>
           </div>
 
           {/* Form */}
