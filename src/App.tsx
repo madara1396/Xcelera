@@ -62,7 +62,7 @@ function App() {
                   <FormInput
                     id="student_name"
                     label="Student's Name"
-                    placeholder="Enter full name"
+                    placeholder="Enter your full name"
                     icon={User}
                     register={register}
                     errors={errors}
@@ -72,7 +72,7 @@ function App() {
                   <FormInput
                     id="contact_number"
                     label="Contact Number"
-                    placeholder="Enter 10-digit number"
+                    placeholder="Enter your phone number"
                     icon={Phone}
                     register={register}
                     errors={errors}
@@ -88,7 +88,7 @@ function App() {
                   <FormInput
                     id="school_name"
                     label="School Name"
-                    placeholder="Enter school name"
+                    placeholder="Enter your school's name"
                     icon={School}
                     register={register}
                     errors={errors}
@@ -98,7 +98,7 @@ function App() {
                   <FormInput
                     id="school_address"
                     label="School Address"
-                    placeholder="Enter school address"
+                    placeholder="Enter your school's address"
                     icon={MapPin}
                     register={register}
                     errors={errors}
@@ -113,7 +113,7 @@ function App() {
                   <FormInput
                     id="grade"
                     label="Grade"
-                    placeholder="Select grade"
+                    placeholder="Select your grade"
                     icon={GraduationCap}
                     register={register}
                     errors={errors}
