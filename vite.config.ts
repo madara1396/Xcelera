@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // Replace this with your actual GitHub repository name
 export default defineConfig({
-  base: '/Xcelera/',
+  base: '/',
   plugins: [react()],
 })
