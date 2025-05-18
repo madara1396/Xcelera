@@ -44,7 +44,7 @@ function App() {
           <div className="text-center mb-8">
             <div className="w-32 h-32 mx-auto mb-4">
               <img 
-                src="https://raw.githubusercontent.com/madara1396/Xcelera/main/src/assets/logo.png" 
+                src="/logo.png" 
                 alt="Xcelera Logo" 
                 className="w-full h-full object-contain"
               />
